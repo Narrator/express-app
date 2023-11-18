@@ -9,6 +9,11 @@ app.listen(port, () => {
   console.log(`server is listening on ${port}`);
 });
 
+// Homepage
+app.get('/', (req: express.Request, res: express.Response) => {
+  res.status(200).send("Hello World!");
+});
+
 // GET
 app.get('/get', (req: express.Request, res: express.Response) => {
   res.status(200).header("x-get-header", "get-header-value").send("get-response-from-compute");
