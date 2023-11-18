@@ -11,6 +11,7 @@
     "remotePatterns": [],
     "formats": [],
     "minimumCacheTTL": 60
+    "dangerouslyAllowSVG": false
   },
   "routes": [
     {
