@@ -10,7 +10,7 @@
     "domains": [],
     "remotePatterns": [],
     "formats": [],
-    "minimumCacheTTL": 60
+    "minimumCacheTTL": 60,
     "dangerouslyAllowSVG": false
   },
   "routes": [
